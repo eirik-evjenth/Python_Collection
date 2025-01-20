@@ -24,7 +24,6 @@ If you see a mistake or something you would like to correct in my code, just mak
 | 🌟 Fame & Glory | Your name in the contributors' list - instant fame! |
 | 🎉 Fun & Whimsy | Because contributing should be fun and whimsical! |
 
-
 ## Contact
 Send an email to [e-eirevj@iskule.no](mailto:e-eirevj@iskule.no).
 
@@ -40,16 +39,11 @@ Send an email to [e-eirevj@iskule.no](mailto:e-eirevj@iskule.no).
 > $${\color{black}Happy}$$
 > $${\color{green}Yippee}$$
 
-
 ## Links
 [Stimulate me 😍](https://neal.fun/stimulation-clicker/).
 
-
-
 ## Images
-![Adolfus Hilter](https://i1.sndcdn.com/artworks-GjzEpne671a18Vm5-TkB41w-t500x500.jpg)
-
-
+![Octocat](https://myoctocat.com/assets/images/base-octocat.svg)
 
 <sub>have a good day</sub>
 
