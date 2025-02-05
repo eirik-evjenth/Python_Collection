@@ -1,0 +1,3 @@
+# FTP (File Transfer Protocol)
+
+FTP er en standard protokoll som brukes til overføring av filer mellom en klient og en server over et nettverk, som for eksempel internett. Det tillater brukere å laste opp eller laste ned filer til og fra en server, samt administrere filer (som å slette, omdøpe eller flytte dem) på serveren. FTP fungerer på en klient-server-modell, der FTP-klient (programvaren eller appen på brukerens enhet) kobles til en FTP-server (på en webserver eller filserver) for å utføre filoverføringene. FTP kan bruke to forskjellige tilkoblingsmodi: aktiv og passiv, og er vanligvis ikke kryptert (selv om det finnes sikrere varianter som FTPS eller SFTP som tilbyr kryptering for beskyttelse av data).

@@ -1,0 +1,5 @@
+# DNS spoofing
+
+DNS spoofing også kjent som DNS cache poisoning, er en type angrep hvor en angruper manipulerer DNS-responsene som sendes til en DNS-server. Målet er å få serveren til å lagre feil IP-adresser i sin cache (midlertidig lagring). Når en bruker deretter prøver å besøke et spesifikt nettsted, kan de bli dirigert til en falsk server i stedet for den riktige, ofte uten at de merker det.
+
+For eksempel kan angruperen endre DNS-oppføringene slik at et legitimt domenenav som `www.example.com`peker mot en derver som kontrolleres av angruperen. Dette kan føre til at brukeren blir utsatt for phishing-angrep (Fishing for informasjon med fake websider, "skriv in BankID passord"), malware (skadelig programvare) eller andre typer svindel, da de uvitende besøker en falsk nettside som ser ut som den ekte.

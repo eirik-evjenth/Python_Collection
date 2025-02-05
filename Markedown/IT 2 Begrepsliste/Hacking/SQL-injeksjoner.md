@@ -1,0 +1,3 @@
+# SQL-injections (SQLi)
+
+Sikkerhettsårbarhet som oppstår når en angruper kan manipulere nettsidens database forespørsel ved å sette inn SQL-kode i brukerens input. Angriperen kan da vise, endre eller slette data i databasen. og i noen tilfeller utføre administrative kommandoer. Dette skjer når en database renser ikke brukerinput før det brukes i en databaseforespørsel, noe som gir angriperen mulighet å utnytte denne svakheten.
