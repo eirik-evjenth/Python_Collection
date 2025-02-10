@@ -7,9 +7,10 @@ with open(filnavn, encoding="utf-8") as fil:
     data = json.load(fil)
 
 for creation in data:
-    creation = int(creation["created_year"])
-    if creation > 2019:
-        print(creation["Youtuber"])
+    if creation["created_year"] != "nan":
+        year = int(creation["created_year"])
+        if year > 2019:
+            print(creation["Youtuber"])
 
 '''
 youtuber_count = 0
@@ -26,6 +27,8 @@ for youtuber in data:
     if youtuber["rank"] < 51:
         youtuber_count += 1
 
+        
+# Plots on of the two above
 top_youtubers = sorted(data, key=lambda x: x["subscribers"], reverse=True)[:youtuber_count]
 
 names = [youtuber["Youtuber"] for youtuber in top_youtubers]
