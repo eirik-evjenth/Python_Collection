@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import csv
 
-filnavn = "Visual Studio IT 2\\Kapittel 3\\Kapittel 3B\\CSV files\\Lonn 2015-2020.csv"
+filnavn = "CSV files\\Lonn 2015-2020.csv"
 
 # Lister for å ta vare på alle årstall og gjennomsnittslønn for menn og kvinner
 aarstall = []
