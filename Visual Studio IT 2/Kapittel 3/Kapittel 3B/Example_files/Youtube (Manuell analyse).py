@@ -1,5 +1,7 @@
 import json
 import matplotlib.pyplot as plt
+from matplotlib.ticker import ScalarFormatter
+from matplotlib.ticker import FuncFormatter
 
 filnavn = "Json files\Youtube.json"
 
@@ -12,16 +14,16 @@ for creation in data:
         if year > 2019:
             print(creation["Youtuber"])
 
-'''
+
 youtuber_count = 0
 
-
+'''
 # For youtubere med en viss antall subscribers
 for youtuber in data:
     if youtuber["subscribers"] > 50000000:
         # print(f"{youtuber['Youtuber']} has the rank {youtuber['rank']}") # for printing in terminal
         youtuber_count += 1
-
+'''
 # For youtubere med en viss rank
 for youtuber in data:
     if youtuber["rank"] < 51:
@@ -40,5 +42,16 @@ plt.barh(names, subscribers, color='blue') # For horisontal bars
 plt.xlabel('Subscribers')
 plt.title(f'Top {youtuber_count} Youtubers by Subscribers')
 # plt.gca().invert_yaxis() # Flipper aksene
-plt.show()
+
+# ALTERNATIVT: Bruk ScalarFormatter for å vise reelle tall på y-aksen (iike vitenskapelig notasjon, eks. 1e6)
 '''
+plt.gca().xaxis.set_major_formatter(ScalarFormatter(useOffset=False))
+plt.gca().xaxis.get_major_formatter().set_scientific(False)
+'''
+def millions(x, pos):
+    'The two args are the value and tick position'
+    return '%1.1fB' % (x * 1e-6)
+
+plt.gca().xaxis.set_major_formatter(FuncFormatter(millions))
+plt.grid()
+plt.show()
