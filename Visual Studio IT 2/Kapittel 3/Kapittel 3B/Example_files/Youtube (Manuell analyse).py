@@ -48,6 +48,7 @@ plt.title(f'Top {youtuber_count} Youtubers by Subscribers')
 plt.gca().xaxis.set_major_formatter(ScalarFormatter(useOffset=False))
 plt.gca().xaxis.get_major_formatter().set_scientific(False)
 '''
+# from matplotlib.ticker import FuncFormatter
 def millions(x, pos):
     'The two args are the value and tick position'
     return '%1.1fB' % (x * 1e-6)
