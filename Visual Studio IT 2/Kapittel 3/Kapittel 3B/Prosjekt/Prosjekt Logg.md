@@ -55,3 +55,17 @@ Jeg lærte veldig mye om økonomi og hvordan ytre faktorer har påvirket verdens
 ### Videre:
 Finne JSON fil, analysere og forklare alt rundt der. Kaggle har alle aksjer på CSV og JSON, skal se der for en JSON fil om en annen teknologiskaksje som Nvidia. En medelev må lese gjennom det slik at jeg ser om de forstår alt. Må kanskje analysere mengde Apple som blir forvekslet i antall aksjer og pengesum sammenlignet med hele verdens forvekslinger.
 
+
+
+
+## 20. Februar
+
+### Hovedfokus:
+
+
+### Lærte:
+
+
+### Videre:
+
+

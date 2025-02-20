@@ -6,7 +6,7 @@ Her bare skriver jeg noen aktuelle mål og ser om jeg har gjort de.
 - Forklar Hver del, samt kontekst og betydning ✅
 
 
-- Finn JSON og gjør pandas analyse ❌
+- Finn JSON og gjør pandas analyse ✅
 - Forklar Hver del, samt kontekst og betydning. ❌
 
 - Kilder? 🟡
