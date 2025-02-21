@@ -1,4 +1,10 @@
 A = 4
 A = 3 + A
+D = 10
+U = D
+M = U
+B = M
 
-print(f"A er lik {A}, B er lik {B}")
+DU = D*U*M*D
+
+print(f"A er lik {DU}, B er lik {DU}")
