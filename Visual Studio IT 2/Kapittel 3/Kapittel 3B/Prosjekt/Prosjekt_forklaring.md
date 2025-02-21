@@ -7,3 +7,7 @@ Investopedia
 Snakk om inflasjon i dagens markedet og hvordan det er umulig å kunne se på verdensbasis. Kan estimere
 
 Mest USA basert siden det er hva jeg har kjennskap til
+
+ingen data i helgen for alle aksjer
+
+invidia, the Latin word for “envy,” and the acronym NV (short for “next vision”),
