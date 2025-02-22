@@ -11,4 +11,4 @@ Her bare skriver jeg noen aktuelle mål og ser om jeg har gjort de.
 
 - Kilder? 🟡
 
-- Skriv Forklaringen ❌
+- Skriv Forklaringen ✅
