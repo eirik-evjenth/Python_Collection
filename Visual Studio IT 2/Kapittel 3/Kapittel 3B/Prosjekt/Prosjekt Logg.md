@@ -61,11 +61,10 @@ Finne JSON fil, analysere og forklare alt rundt der. Kaggle har alle aksjer på 
 ## 20. Februar
 
 ### Hovedfokus:
-
+Bli ferdig med alt koden for JSON filen, kanskje se litt på forklaringer men gjorde mitt beste å lage alt koden jeg synes var nødvendig. Ble ferdig med alt koden for JSON filene.
 
 ### Lærte:
-
+Bruke Pandas og JSON, veldig nyttig og fint å lære hvordan å finne ting i en JSON fil og bruke pandas for å analysere det. Var ti ganger lettere.
 
 ### Videre:
-
-
+Siden alt koden er på plass må jeg finjustere med kommentarer og se på koden. Samtidig å forklare alt som skjer er viktig, må se på det etter timen.
