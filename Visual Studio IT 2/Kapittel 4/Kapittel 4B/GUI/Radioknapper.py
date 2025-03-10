@@ -6,7 +6,7 @@ def velg_farge():
     idx_farge = farge_var.get()
     if idx_farge != -1:
         valg.configure(text=farger[idx_farge],
-                       fg="white", bg=farger[idx_farge])
+            fg="white", bg=farger[idx_farge])
 
 
 root = tk.Tk()
