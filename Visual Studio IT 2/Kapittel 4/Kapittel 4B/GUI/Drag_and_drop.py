@@ -1,5 +1,3 @@
-# Kjelde: https://www.plus2net.com/python/tkinter-drag-and-drop.php 
-
 import tkinter as tk  # Import the Tkinter library
 
 def start_drag(event):  
@@ -15,13 +13,13 @@ def on_drag(event):
     widget.place(x=x, y=y)  # Move the widget
 
 root = tk.Tk()  # Create the main window
-root.title("plus2net.com Drag-and-Drop Example")  # Set window title
-root.geometry("400x300")  # Set window size
+root.title("Drag and Drop")  # Set window title
+root.geometry("600x450")  # Set window size
 root.configure(background='white')  # Set window background color
 
 # Create a label that can be dragged
-label = tk.Label(root, text="Drag Me", bg="black", fg="white", padx=10, pady=5)  
-label.place(x=50, y=50)  # Place the label at initial position
+label = tk.Label(root, text="Drag Me", bg="black", fg="white", padx= 5, pady=5)  
+label.place(x=30, y=30)  # Place the label at initial position
 
 # Bind mouse events to the label for dragging functionality
 label.bind("<ButtonPress-1>", start_drag)  # Detect mouse press to start dragging
