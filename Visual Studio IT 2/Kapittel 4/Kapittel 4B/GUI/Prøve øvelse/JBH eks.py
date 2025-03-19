@@ -31,6 +31,7 @@ def regn_ut():
     tid = str(tid).split(':')                # ['hh','mm','ss']
     mld = f'Timer: {tid[0]}, minutter: {tid[1]}, sekunder: {tid[2][:2]}'
     resultat.configure(text=mld)
+    
 # root-vinduet som me teiknar grafikk til
 root = tk.Tk()
 root.title('Flytid')
