@@ -17,13 +17,13 @@ class App:
         # Opprett en knapp og en label
         self.time = tk.Entry(self.frame, justify=tk.CENTER,width=22) # 22 slik at teksten passer
         self.time.insert(0, "Skriv inn antall sekunder ")
-        self.time.grid(row=2, column=0)
+        self.time.grid(row=1, column=0)
 
         self.timer = tk.Label(self.frame, width=25, bg="grey", fg="black", pady=3)
         self.timer.grid(row=0, column=0, columnspan=2, pady=13)
 
         self.start = tk.Button(self.frame, text="Start", command=self.start_countdown)
-        self.start.grid(row=2, column=1)
+        self.start.grid(row=1, column=1)
 
         self.remaining_time = 0
 
