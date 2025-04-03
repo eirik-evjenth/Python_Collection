@@ -1,7 +1,8 @@
 {
     "python.testing.pytestArgs": [
         "Demo_tests",
-        "billeter"
+        "billeter",
+        "BMI"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
