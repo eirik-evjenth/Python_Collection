@@ -1,8 +1,10 @@
-def f(x):
-    return x**3-4*x+1
+from math import e, pi
 
-a = -1
-b = 5
+def f(x):
+    return e**(-x)**2
+
+a = 0
+b = 2
 n = 1000
 
 dx = (b - a) / n
@@ -15,4 +17,8 @@ for i in range(n):
     areal += rektangel
     midtpunkt += dx
 
-print(f"En tilnærmingsverdi for arealet er {areal:.1f}")
+# Dette vil regne arealet i en 2d graf, men vi vet for volumet må vi gange med pi.
+
+volum = areal * pi
+
+print(f"En tilnærmingsverdi for volumet av omdreiningslegemet er {volum:.4f}")
