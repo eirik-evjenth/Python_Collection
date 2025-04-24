@@ -8,13 +8,14 @@ root.title("Bildefremviser")
 tittel = tk.Label(root, text="Bildefremviser")
 tittel.grid(row=0, column=0, columnspan=2, pady=10, padx=10)
 
-bilde1 = Image.open("tkinter.jpg")
-bilde2 = Image.open("sulten.webp")
+bilde1 = Image.open("Mario.png")
+bilde2 = Image.open("Mario2.png")
+bilde3 = Image.open("Mario3.png")
 
-bilder = [bilde1,bilde2]
+bilder = [bilde1,bilde2,bilde3]
 
 for i in range(len(bilder)):
-    bilder[i] = bilder[i].resize((150, 150), Image.Resampling.LANCZOS)
+    bilder[i] = bilder[i].resize((600, 600), Image.Resampling.LANCZOS)
     bilder[i] = ImageTk.PhotoImage(bilder[i])
 
 
