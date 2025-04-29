@@ -1,0 +1,2 @@
+lys insensitet: 61
+temp: 21
