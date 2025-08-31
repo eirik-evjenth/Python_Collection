@@ -55,6 +55,7 @@ class Wordle:
         self.alphabet = []
         alphabetList = [[i for i in "qwertyuiop"], [i for i in "asdfghjkl"], [i for i in "zxcvbnm"]]
 
+
         for i in range(len(alphabetList)):
             for j in range(len(alphabetList[i])):
                 button = tk.Button(self.root, text=alphabetList[i][j], font=("Arial", 24), bg="lightgrey", command=lambda letter=alphabetList[i][j]: self.addLetter(letter))
